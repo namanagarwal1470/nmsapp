@@ -1,0 +1,28 @@
+fastapi commands:
+1).uvicorn main:app --reload
+2).uvicorn main:app --reload --host 127.0.0.1 --port 8001 
+
+java binary compiling and run:
+1).javac EndlessBinary.java
+2).native-image EndlessBinary
+3). ./EndlessBinary
+
+commit:
+1).git init
+2).git add .
+3).git commit -am "task done"
+4).git branch -M main
+5).git remote add origin https://github.com/namanagarwal1470/vomytask.git
+6).git push -u origin main
+
+
+
+
+virtualenv:
+python -m venv myvenv 
+.\myvenv\scripts\activate
+pip freeze > requirements.txt
+
+
+docker: 
+docker-compose up --build

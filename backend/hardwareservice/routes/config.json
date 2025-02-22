@@ -1,0 +1,78 @@
+{
+  "configParam": [
+    {
+      "paramList": [
+        {
+          "cnum": 99,
+          "dependentParamCondition": [],
+          "deprecated": false,
+          "forceUpgrade": "TRUE",
+          "isSI": "false",
+          "isSI_value": "NON_SERVICE_IMPACTING",
+          "isdependent": "FALSE",
+          "key": "false",
+          "maxRange": "1000",
+          "minRange": "200",
+          "name": "ENDMARKERTIMERINMS",
+          "oid": "4.20.[0].5001.2:ENDMARKERTIMERINMS",
+          "pattern": "",
+          "readOnly": "false",
+          "required": false,
+          "validator": "unsigninteger",
+          "value": "200"
+        },
+        {
+          "deprecated": false,
+          "forceUpgrade": "TRUE",
+          "isSI": "false",
+          "isSI_value": "NON_SERVICE_IMPACTING",
+          "isdependent": "FALSE",
+          "key": "false",
+          "maxRange": "1000",
+          "minRange": "0",
+          "name": "naman",
+          "readOnly": "false",
+          "required": false,
+          "validator": "string",
+          "value": "naman"
+        }
+      ],
+      "paramType": "CU_EGTP"
+    }
+  ],
+  "tableConfigParam": [
+    {
+      "configParamComplex": [
+        {
+          "arrayIndex": "0",
+          "paramList": [
+            {
+              "cnum": 99,
+              "dependentParamCondition": [],
+              "deprecated": false,
+              "forceUpgrade": "FALSE",
+              "isSI": "true",
+              "isSI_value": "GNB_RESTART_REQUIRED",
+              "isdependent": "FALSE",
+              "key": "false",
+              "maxRange": "",
+              "minRange": "",
+              "name": "OBJECTCLASS",
+              "oid": "4.20.[0].1:OBJECTCLASS",
+              "pattern": "",
+              "readOnly": "false",
+              "required": false,
+              "validator": "string",
+              "value": "RNCFunction"
+            }
+          ],
+          "strIndex": "0"
+        }
+      ],
+      "fixed": "false",
+      "maxIndex": "1",
+      "minIndex": "1",
+      "strTableName": "CU"
+    }
+  ]
+}
